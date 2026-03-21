@@ -4,6 +4,8 @@
 
 - New Features:
 
+	- [#1541](https://github.com/LMS-Community/slimserver/pull/1541) \- Add per-player timezone support: players can now display date and time, and fire alarms, in their own timezone rather than the server's.
+
 - Server Changes:
 
 	- More aggressively cache DNS lookups, re-use cached data even if expired, but if lookup fails.
@@ -15,7 +17,6 @@
 - Bug Fixes:
 
 	- [#1517](https://github.com/LMS-Community/slimserver/pull/1517) \- Fix work images and artwork precaching (@darrell-k)
-	- [#1527](https://github.com/LMS-Community/slimserver/pull/1527) \- YAML::XS would turn booleans into read-only values on Perl 5.42
 
 - Other:
 
@@ -30,6 +31,7 @@
 - Bug Fixes:
 
 	- Some radio streams would redirect to web page when using a "Mozilla" user agent string.
+	- [#1527](https://github.com/LMS-Community/slimserver/pull/1527) \- YAML::XS would turn booleans into read-only values on Perl 5.42
 	- [#1528](https://github.com/LMS-Community/slimserver/pull/1528) \- Fix FLAC to MP3 transcoding for mono tracks (@jbylsma)
 
 - Other:
