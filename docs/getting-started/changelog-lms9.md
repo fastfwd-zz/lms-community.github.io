@@ -18,9 +18,11 @@
 - Platform Support:
 
 	- Improve SSL support for Windows and macOS builds, updating Mozilla::CA to the latest version.
+	- Update Audio-Scan module to version 1.12 (Windows, macOS, Linux Perl 5.32 x86\_64, 5.36 x86\_64/aarch64, 5.40 x86\_64) (@ralphy, @cheesestraws)
 
 - Bug Fixes:
 
+	- [#10](https://github.com/LMS-Community/Audio-Scan/pull/10) \- id3: Never add undef to tag hash for empty or invalid TXXX key (@cheesestraws)
 	- [#1517](https://github.com/LMS-Community/slimserver/pull/1517) \- Fix work images and artwork precaching (@darrell-k)
 	- [#1553](https://github.com/LMS-Community/slimserver/pull/1553) \- Allow plugins to shut down before closing the database (@SamInPgh)
 	- [#1555](https://github.com/LMS-Community/slimserver/issues/1555) \- Scanner: stop-gap to prevent contributor row poisoning when the MusicBrainz ID count does not match the artist name count. (@Rouzax)
