@@ -40,6 +40,8 @@
 
 - Platform Support:
 
+	- [#1562](https://github.com/LMS-Community/slimserver/pull/1562) \- Improve compatibility with newer versions of DBIx::Class (@paulgevers)
+
 - Bug Fixes:
 
 	- Some radio streams would redirect to web page when using a "Mozilla" user agent string.
