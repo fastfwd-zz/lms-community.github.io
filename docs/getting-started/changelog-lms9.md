@@ -24,6 +24,7 @@
 
 - Bug Fixes:
 
+	- Fix deletion of favorites when the "item\_id" comes with a session ID.
 	- [#10](https://github.com/LMS-Community/Audio-Scan/pull/10) \- id3: Never add undef to tag hash for empty or invalid TXXX key (@cheesestraws)
 	- [#1140](https://github.com/LMS-Community/slimserver/pull/1140) \- Fix stat returning an empty size for most files (@jecaro)
 	- [#1517](https://github.com/LMS-Community/slimserver/pull/1517) \- Fix work images and artwork precaching (@darrell-k)
