@@ -12,6 +12,7 @@
 - Server Changes:
 
 	- More aggressively cache DNS lookups, re-use cached data even if expired, but if lookup fails.
+	- Improve [HTTP/1.1 compatibility using keep-alive and SSL/TLS.](https://forums.lyrion.org/forum/developer-forums/developers/1823228-possible-issue-with-http-1-1-keep-alive-and-small-body)
 	- [#1548](https://github.com/LMS-Community/slimserver/pull/1548) \- Updated Czech translation (@mipa87)
 	- [#1549](https://github.com/LMS-Community/slimserver/pull/1549) \- Update CODE2000 font to 1.176 (@mipa87)
 	- [#1550](https://github.com/LMS-Community/slimserver/pull/1550) \- Update wizard plugin JSON encoding to use UTF-8 for HTML templates (@mipa87)
@@ -24,7 +25,6 @@
 
 - Bug Fixes:
 
-	- Fix deletion of favorites when the "item\_id" comes with a session ID.
 	- [#10](https://github.com/LMS-Community/Audio-Scan/pull/10) \- id3: Never add undef to tag hash for empty or invalid TXXX key (@cheesestraws)
 	- [#1140](https://github.com/LMS-Community/slimserver/pull/1140) \- Fix stat returning an empty size for most files (@jecaro)
 	- [#1517](https://github.com/LMS-Community/slimserver/pull/1517) \- Fix work images and artwork precaching (@darrell-k)
@@ -53,6 +53,7 @@
 	- Some radio streams would redirect to web page when using a "Mozilla" user agent string.
 	- Fix software update check for Debian on i686 and older systems.
 	- Fix scheduling scans to run at midnight.
+	- [#1567](https://github.com/LMS-Community/slimserver/issues/1567) \- Fix deletion of favorites when the "item\_id" comes with a session ID.
 	- [#1527](https://github.com/LMS-Community/slimserver/pull/1527) \- YAML::XS would turn booleans into read-only values on Perl 5.42
 	- [#1528](https://github.com/LMS-Community/slimserver/pull/1528) \- Fix FLAC to MP3 transcoding for mono tracks (@jbylsma)
 	- [#1573](https://github.com/LMS-Community/slimserver/pull/1573) \- Fix release types for Squeezeplay/Touch etc. (@darrell-k)
