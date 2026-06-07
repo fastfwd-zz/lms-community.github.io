@@ -22,7 +22,6 @@
 	- Improve SSL support for Windows and macOS builds, updating Mozilla::CA to the latest version.
 	- Add ARM64 sox binary for macOS (@ralphy)
 	- Update Audio-Scan module to version 1.12 (Windows, macOS, Linux Perl 5.32 x86\_64, 5.36 x86\_64/aarch64, 5.40 x86\_64) (@ralphy, @cheesestraws)
-	- [#106](https://github.com/LMS-Community/slimserver-platforms/pull/106) \- Removal of SYSV Init support and better systemd support in the RPM package for Red Hat/SUSE (@JohanSaaw, @mavit)
 
 - Bug Fixes:
 

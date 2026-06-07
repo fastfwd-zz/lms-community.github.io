@@ -33,10 +33,10 @@ dev:
   mac: ~
   macos:
     desc: ':material-apple: Apple macOS'
-    name: LyrionMusicServer-9.2.0-1780673646.dmg
+    name: LyrionMusicServer-9.2.0-1780828343.dmg
     size: 45 MB
-    timestamp: Fri Jun  5 15:34:06 2026
-    url: https://downloads.lms-community.org/nightly/LyrionMusicServer-9.2.0-1780673646.dmg
+    timestamp: Sun Jun  7 10:32:23 2026
+    url: https://downloads.lms-community.org/nightly/LyrionMusicServer-9.2.0-1780828343.dmg
   majorVersion: 9
   minorVersion: 9.2
   nocpan:
@@ -73,10 +73,10 @@ dev:
   win: ~
   win64:
     desc: ':material-microsoft-windows: Windows 64-bit'
-    name: LyrionMusicServer-9.2.0-1780673646-win64.exe
+    name: LyrionMusicServer-9.2.0-1780828343-win64.exe
     size: 14 MB
-    timestamp: Fri Jun  5 15:34:06 2026
-    url: https://downloads.lms-community.org/nightly/LyrionMusicServer-9.2.0-1780673646-win64.exe
+    timestamp: Sun Jun  7 10:32:23 2026
+    url: https://downloads.lms-community.org/nightly/LyrionMusicServer-9.2.0-1780828343-win64.exe
 encore: '[:material-linux::material-music-box: Musical Fidelity (17 MB)](https://downloads.lms-community.org/LyrionMusicServer_v9.1.0/lyrionmusicserver-9.1.0-MusicalFidelity.tgz){ .md-button }'
 latest:
   deb:
