@@ -26,6 +26,7 @@
 
 - Bug Fixes:
 
+	- Fix an issue with the image resizer where an explicitly requested format was not honored when padding was needed.
 	- [#10](https://github.com/LMS-Community/Audio-Scan/pull/10) \- id3: Never add undef to tag hash for empty or invalid TXXX key (@cheesestraws)
 	- [#1140](https://github.com/LMS-Community/slimserver/pull/1140) \- Fix stat returning an empty size for most files (@jecaro)
 	- [#1517](https://github.com/LMS-Community/slimserver/pull/1517) \- Fix work images and artwork precaching (@darrell-k)
