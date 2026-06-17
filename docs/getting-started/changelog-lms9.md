@@ -1,6 +1,6 @@
 ## Version 9.2.0
 
-- [Upstream fixes from Logitech Media Server 9.1.x](http://raw.githubusercontent.com/v9.1.1)
+- [Upstream fixes from Logitech Media Server 9.1.x](http://raw.githubusercontent.com/v9.1.2)
 
 - New Features:
 
@@ -41,9 +41,19 @@
 
 - Other:
 
-## Version 9.1.1
+## Version 9.1.2
 
 - New Features:
+
+- Server Changes:
+
+- Platform Support:
+
+- Bug Fixes:
+
+- Other:
+
+## Version 9.1.1 - 2026-06-17 (1ceeaf1d6)
 
 - Server Changes:
 
@@ -62,8 +72,6 @@
 	- [#1527](https://github.com/LMS-Community/slimserver/pull/1527) \- YAML::XS would turn booleans into read-only values on Perl 5.42
 	- [#1528](https://github.com/LMS-Community/slimserver/pull/1528) \- Fix FLAC to MP3 transcoding for mono tracks (@jbylsma)
 	- [#1573](https://github.com/LMS-Community/slimserver/pull/1573) \- Fix release types for Squeezeplay/Touch etc. (@darrell-k)
-
-- Other:
 
 ## Version 9.1.0 - 2026-02-19 (d19d25040)
 
